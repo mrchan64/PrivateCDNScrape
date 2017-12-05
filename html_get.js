@@ -2,10 +2,16 @@ var http = require('http');
 var fs = require('fs');
 
 var options = {
-  'host': 'everyvideo.net',
+  'hostname': 'entervideo.net',
   'path': '/watch/2561d5f3cc38a75'
 
 }
+
+/*options = {
+  'hostname': 'www.google.com',
+  'path': '/'
+
+}*/
 
 var file = fs.createWriteStream("darkknight.html");
 
